@@ -3,7 +3,6 @@
 import sys, os
 sys.path.append(os.path.abspath("../"))
 from conf import *
-#extensions.remove('psdom')
 extensions.append('sphinx_gitstamp')
 extensions.append('sphinx_copybutton')
 extensions.append('sphinx_tabs.tabs')
